@@ -4,7 +4,7 @@ public class ArrayHW2 {
 
 	int arr[] = new int[42];
 	int index[] = new int[42];
-
+	//隨機產生1~42的數字100000次，計算每個數出現的次數
 	public void ranArr() {
 		for (int i = 1; i <= 100000; i++) {
 			int j = (int) (Math.random() * 42);
